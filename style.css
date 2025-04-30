@@ -1,10 +1,62 @@
 *{
     padding:0;
     margin:0;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
+    background-color:#F2F7F8 ;
+    font-family: "Plus Jakarta Sans", sans-serif;
 }
 .logo img{
     width:auto;
-    height:90px;
+    height:30px;
     cursor:pointer;
 }
+.header{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding: 30px 90px;
+    /* position:relative */
+    /* padding-top: 20px; */
+}
+.container{
+    display:flex;
+    align-items: center;
+    gap:55px;
+}
+.nav ul{
+    list-style:none ;
+    display:flex;
+    gap:40px;
+    /* font-size:14px; */
+ }
+ .nav a{
+    text-decoration: none;
+    color:#3D4F60;
+    font-size:16px;
+    font-weight:600;
+ }
+ .right ul li{
+    list-style: none;
+ }
+.right a{
+    text-decoration: none;
+    font-weight: 600;
+}
+.right ul{
+    display:flex;
+    gap:10px;
+    /* font-size: 14px; */
+}
+.no-bg{
+    border: 1px solid black;
+    color:#15212E;
+    padding:14px 25px;
+    border-radius:10px;
+}
+.black-bg{
+    background-color: black;
+    border-radius:10px;
+    padding:15px 10px;
+    color:white
+}
+
